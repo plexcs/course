@@ -26,5 +26,4 @@ then re-start the server via :
 npm start
 ```
 
-image: 
-<img src="./public/ss.png" style="width: 600px; height: 400px"  />
+<img src="./public/ss.png" style="width: 600px; height: 400px" alt="POS" title="Image" />
