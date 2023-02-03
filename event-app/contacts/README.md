@@ -1,11 +1,11 @@
 ### FRONT-END of Event App interacting with Smart Contract 
 
+<div
 <img src="https://github.com/Web3-0-Course/course/blob/main/event-app/contacts/public/ss1.png" width="60" height="50" />
-
+</div>
 ☸️ Compile the code and run the server
-```
-npm start
-```
+
+```npm start```
 
 ⬇️ Install web3 library
 
