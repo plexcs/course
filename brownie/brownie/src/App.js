@@ -8,7 +8,6 @@ import Web3 from 'web3';
 function App() {
   
   const [account, setAccount] = useState();
-  const [newName , setNewName] = useState();
   const [newFvNumber, setNewFvNumber] = useState();
 
 
@@ -35,9 +34,8 @@ function App() {
      <h1>Brownies</h1>
      <h3><span>Account  : </span>{account}</h3>
      <form onSubmit={handleSubmit}>
-        <input type='text' placeholder='Name' value={newName || ''} onChange={(e) => setNewName(e.target.value)} />
         <input type='text' placeholder='Number' value={newFvNumber || ''} onChange={(e) => setNewFvNumber(e.target.value)} />
-        <button type='submit'>Add Person</button>
+        <button type='submit'>Add Number</button>
      </form>
     </div>
   );
